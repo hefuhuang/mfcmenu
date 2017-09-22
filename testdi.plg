@@ -1,0 +1,47 @@
+--------------------Configuration: testdi - Win32 Debug--------------------
+Begining build with project "E:\Incoming\CodeGuru_Manager\Menus\freemenu\testdi\testdi.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/testdi.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x804 /fo"Debug/testdi.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/testdi.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/testdi.pdb" /debug /machine:I386 /out:"Debug/testdi.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x804 /fo"Debug/testdi.res" /d "_DEBUG" /d "_AFXDLL" "E:\Incoming\CodeGuru_Manager\Menus\freemenu\testdi\testdi.rc"" 
+Creating temp file "C:\TEMP\RSP1E.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/testdi.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\Incoming\CodeGuru_Manager\Menus\freemenu\testdi\FreeMenu.cpp"
+"E:\Incoming\CodeGuru_Manager\Menus\freemenu\testdi\MenuItemWnd.cpp"
+"E:\Incoming\CodeGuru_Manager\Menus\freemenu\testdi\testdi.cpp"
+"E:\Incoming\CodeGuru_Manager\Menus\freemenu\testdi\testdiDlg.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP1E.tmp" 
+Creating temp file "C:\TEMP\RSP1F.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/testdi.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\Incoming\CodeGuru_Manager\Menus\freemenu\testdi\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP1F.tmp" 
+Creating temp file "C:\TEMP\RSP20.tmp" with contents </nologo /subsystem:windows /incremental:yes /pdb:"Debug/testdi.pdb" /debug /machine:I386 /out:"Debug/testdi.exe" /pdbtype:sept 
+.\Debug\FreeMenu.obj
+.\Debug\MenuItemWnd.obj
+.\Debug\StdAfx.obj
+.\Debug\testdi.obj
+.\Debug\testdiDlg.obj
+.\Debug\testdi.res>
+Creating command line "link.exe @C:\TEMP\RSP20.tmp" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FreeMenu.cpp
+MenuItemWnd.cpp
+testdi.cpp
+testdiDlg.cpp
+Generating Code...
+Linking...
+
+
+
+testdi.exe - 0 error(s), 0 warning(s)
